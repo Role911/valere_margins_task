@@ -106,6 +106,10 @@ Revert migration
 $ npm run migration:revert
 ```
 
+## Seed data 
+```bash
+$ npm run data:seed
+```
 
 ## Useful links
 
