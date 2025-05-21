@@ -12,7 +12,7 @@ Sport Complex backend project, built using the [NestJS](https://github.com/nestj
 -  JWT-based authentication with role-based authorization
 -  Full CRUD for users, classes, sports, and applications
 -  Schedule integration for classes
--  Swagger documentation at `/api/documents`
+-  Swagger documentation at `/api`
 -  Unit and e2e testing with Jest and Supertest
 
 ## Setup (Local System)
