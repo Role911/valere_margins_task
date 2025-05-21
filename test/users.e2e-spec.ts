@@ -28,7 +28,7 @@ describe('Users API (e2e)', () => {
       port: parseInt(process.env.DB_PORT || '5432') || 5432,
       username: process.env.DB_USER || 'postgres',
       password: process.env.DB_PASS || 'postgres',
-      database: process.env.DB_NAME || 'celeroOne',
+      database: process.env.DB_NAME || 'sport_app',
       entities: ['src/**/*.entity.ts'],
     });
   beforeAll(async () => {
