@@ -35,7 +35,7 @@ $ npm install -g @nestjs/cli
 Clone the project
 
 ```bash
-$ git clone 
+$ git clone https://github.com/Role911/valere_margins_task
 ```
 
 ```bash
@@ -68,10 +68,10 @@ PORT=3000
 NODE_ENV=production
 ```
 
-Before running the application for the first time, run the seed script to populate the database with initial values
+Before running the application for the first time, run the script to create entites
 
 ```bash
-$ npm run data:refresh
+$ npm run db:migrate
 ```
 
 # Development
